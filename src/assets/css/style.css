@@ -38,25 +38,83 @@ body{
     margin-top:8rem;
     width: 100%; 
   }
-  .portfolio {
-    display: flex;
-    justify-content: space-evenly;
+  .portfolio,.resume {
+   
+    align-content: center;
     align-items: center;
     background-color: #43af40;
-    padding: 20px 5px;
-    position: fixed;
+    padding: 10px 5px;
+    
     width: 100%;
     top: 0;
     z-index: 99;
-   
+    
     font-size: 2rem;
     border-bottom: 8px solid rgb(50, 134, 48); 
     border-top: 8px solid rgb(50, 134, 48); 
-    margin-top: 28.5rem;
+    
   }
-  .portfolio p{
-    font-family: 'SF Pixelate'
+  .portfolio p,.resume p{
+    font-family: 'SF Pixelate';
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin: 0rem;
   }
+  .work-one,.work-two,.work-three{
+    background-color: #ffc42a;
+    border: 8px solid #be9220;
+    padding: 8rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    align-content: center;
+    align-items: center;
+  }
+  .cipher{
+    align-content: center;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+    margin-top: -10rem;
+    margin-left: -1rem;
+    
+  }
+  h2{
+    color: white;
+    font-family: 'SF Pixelate';
+    text-align: center;
+  }
+  h3{
+    color: white;
+    font-family: 'SF Pixelate';
+    text-align: center;
+  }
+  .title-projects h3{
+    margin-top: 1rem;
+   
+    text-align: center;
+ 
+  }  
+  .titles-resume h3{
+    margin: 1rem;
+    
+    text-align: center;
+  }
+  .prog,.edu,.soft{
+    background-color: #25c1c0;
+    border: 8px solid #1a8483;
+   padding: 5rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    align-content: center;
+    align-items: center;
+  }
+  .edu p{
+    font-size: 1.5rem;
+    font-family: 'SF Pixelate';
+    text-align: center;
+  }
+
   @font-face {
     font-family: '04b 30';
     font-style: normal;
