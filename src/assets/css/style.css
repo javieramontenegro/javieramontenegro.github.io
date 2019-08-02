@@ -38,7 +38,7 @@ body{
     margin-top:8rem;
     width: 100%; 
   }
-  .portfolio,.resume {
+  .portfolio,.resume,.contact {
    
     align-content: center;
     align-items: center;
@@ -54,7 +54,7 @@ body{
     border-top: 8px solid rgb(50, 134, 48); 
     
   }
-  .portfolio p,.resume p{
+  .portfolio p,.resume p,.contact p{
     font-family: 'SF Pixelate';
     font-size: 3rem;
     color: white;
