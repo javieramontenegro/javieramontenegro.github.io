@@ -48,11 +48,14 @@ body{
     width: 100%;
     top: 0;
     z-index: 99;
-    font-family: 'Lobster', cursive;
+   
     font-size: 2rem;
     border-bottom: 8px solid rgb(50, 134, 48); 
     border-top: 8px solid rgb(50, 134, 48); 
     margin-top: 28.5rem;
+  }
+  .portfolio p{
+    font-family: 'SF Pixelate'
   }
   @font-face {
     font-family: '04b 30';
