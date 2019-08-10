@@ -7,7 +7,7 @@ body{
     align-items: center;
     overflow: hidden;
     background-color: #43af40;
-    padding: 20px 5px;
+    padding: 0.5rem 0.5rem;
     position: fixed;
     width: 100%;
     top: 0;
@@ -15,6 +15,7 @@ body{
     font-family: 'Lobster', cursive;
     font-size: 2rem;
     border-bottom: 8px solid rgb(50, 134, 48); 
+    margin-left: 0rem !important;
   }
   .btn-portfolio,.btn-resume, .btn-contact{
     background-color: #e4226b;
@@ -64,20 +65,23 @@ body{
   .work-one,.work-two,.work-three{
     background-color: #ffc42a;
     border: 8px solid #be9220;
-    padding: 8rem;
+    /* padding: 8rem; */
     margin: 1rem;
     border-radius: 2rem;
     align-content: center;
     align-items: center;
   }
-  .cipher{
-    align-content: center;
-    align-items: center;
-    position:absolute;
+  .work-one img{
+   /*  align-content: center;
+    align-items: center; */
+    /* position:absolute; */
     z-index: 1;
-    margin-top: -10rem;
-    margin-left: -1rem;
-    
+   
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+   vertical-align:middle;
+    width: 100%;
   }
   h2{
     color: white;
