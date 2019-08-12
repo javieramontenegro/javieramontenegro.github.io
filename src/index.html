@@ -10,28 +10,28 @@
 
 </head>
 <body>
-    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" >
+   
         <section>
        
             <div class="nav-init" id="home">
                 <div class="row justify-content-end">
-                <div class="col-10 col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
-                      <button class="btn-portfolio">Portfolio</button>
+                <div class="col-4 col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+                      <button class="btn-portfolio" id="btn-portfolio">Portfolio</button>
                 </div>
-                <div class="col-10 col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
-                     <button class="btn-resume">Resume</button>
+                <div class="col-4 col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+                     <button class="btn-resume" id="btn-resume">Resume</button>
                  </div>
               
-                 <div class="col-10 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                 <div class="col-4 col-sm-12 col-md-4 col-lg-4 col-xl-4">
               
-                 <button class="btn-contact">Contact</button>
+                 <button class="btn-contact" id="btn-contact">Contact</button>
                 </div>
             </div>   
             
             </div>
         </section> 
    <section>
-       <img src="./assets/img/name.jpg" class="my-name" alt="logo">
+       <img src="./assets/img/name.jpg" class="my-name" id="my-name" alt="logo">
    </section>  
     <section>
         <div class="portfolio" id="portfolio">
@@ -40,17 +40,37 @@
         <!-- MIS 3 TRABAJOS -->
         <div class="container">
            <h2>Projects done!</h2>
-            <div class="row justify-content-center">
-              <div class="col-8 col-sm-6 col-md-6 col-lg-4 col-xl-3  work-one">
-                 <img src="./assets/img/cipher.png" class="cipher" alt="logo">
-              </div>
-              <div class="col-10 col-sm-10 col-md-10 col-lg-6 col-xl-8  work-one">
-               
-              </div>
-             
-           
-            </div>
+                   <!-- CIPHER -->
+           <div class="row justify-content-center align-items-center">
+             }
+                <div class="col-8 col-sm-6 col-md-6 col-lg-4 col-xl-3  work-one" id="work-one">
+                     <img src="./assets/img/cipher.png" class="cipher" alt="cipher">
+                  </div>
+                <div class="col-10 col-sm-10 col-md-10 col-lg-6 col-xl-8 work-one-text">
+                       <p>code and decode your messages, using Cesar cipher. <br>Simple & cute.</p>
+                </div>
+           </div>
+                 <!-- POKEDEX -->
+          <div class="row justify-content-center align-items-center">
+                 <div class="col-8 col-sm-6 col-md-6 col-lg-4 col-xl-3  work-two" id="work-two">
+                        <img src="./assets/img/poke.png" class="pokedex" alt="POKEDEX">
+                 </div>
+                 <div class="col-10 col-sm-10 col-md-10 col-lg-6 col-xl-8  work-two-text">
+                           <p>List of 151 pokemon. order, filter and search !</p>
+                 </div>
+          </div>
+                 <!-- MY CHINGU -->
+          <div class="row justify-content-center align-items-center">
         
+               <div class="col-8 col-sm-6 col-md-6 col-lg-4 col-xl-3  work-three" id="work-three">
+                       <img src="./assets/img/chingu.png" class="my-chingu" alt="my chingu">
+                </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-6 col-xl-8  work-three-text">
+                   <p>The best app for k-pop lovers. Social network for talk about oppas, noonas and all about Korea.
+                    <br>Say 안녕!!</p>
+            </div>
+     </div>
+
 
 
       </div>
@@ -108,11 +128,11 @@
 
     </section>
 
-</div>
+
    
    
    
-   
+<script  src="./index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

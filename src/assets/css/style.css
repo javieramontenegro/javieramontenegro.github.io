@@ -7,7 +7,7 @@ body{
     align-items: center;
     overflow: hidden;
     background-color: #43af40;
-    padding: 0.5rem 0.5rem;
+    padding: 0.6rem 0.5rem;
     position: fixed;
     width: 100%;
     top: 0;
@@ -36,16 +36,16 @@ body{
     padding-right: 0rem !important;
   }
   .my-name{
-    margin-top:8rem;
+    margin-top:7rem;
     width: 100%; 
   }
   .portfolio,.resume,.contact {
-   
+    
     align-content: center;
     align-items: center;
     background-color: #43af40;
-    padding: 10px 5px;
-    
+    padding: 1rem 1rem;
+  
     width: 100%;
     top: 0;
     z-index: 99;
@@ -71,7 +71,7 @@ body{
     align-content: center;
     align-items: center;
   }
-  .work-one img{
+  .work-one img,.work-two img,.work-three img{
    /*  align-content: center;
     align-items: center; */
     /* position:absolute; */
@@ -83,10 +83,22 @@ body{
    vertical-align:middle;
     width: 100%;
   }
-  h2{
+  .work-one:hover,.work-two:hover,.work-three:hover{
+    background-color: #e4226b;
+    border: 8px solid rgb(180, 31, 89); 
+    cursor: pointer;
+  }
+  .work-one-text p,.work-two-text p,.work-three-text p{
+    font-size: 2rem;
     color: white;
     font-family: 'SF Pixelate';
+  }
+  h2{
+    color: #ffc42a;
+    font-family: 'SF Pixelate';
     text-align: center;
+    font-size: 3rem !important;
+    margin-top: 2rem !important;
   }
   h3{
     color: white;
@@ -118,6 +130,61 @@ body{
     font-family: 'SF Pixelate';
     text-align: center;
   }
+  @media (max-width: 600px) {
+    .btn-portfolio,.btn-resume, .btn-contact{
+      background-color: #e4226b;
+      border-width: 0ch;
+      margin: 0.2rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      padding-top: 0.2rem;
+      padding-bottom: 0.2rem;
+      border-radius: 0.4rem;
+      border-bottom: 6px solid rgb(180, 31, 89); 
+      color:white;
+      text-align: left;
+      font-family: 'SF Pixelate';
+      font-size: 1rem;
+    
+    }
+    .my-name{
+      margin-top:5rem;
+      width: 100%; 
+    }
+    .portfolio p,.resume p,.contact p{
+      font-family: 'SF Pixelate';
+      font-size: 2rem;
+      color: white;
+      text-align: center;
+      margin: 0rem;
+    }
+    .portfolio,.resume,.contact {
+   
+      align-content: center;
+      align-items: center;
+      background-color: #43af40;
+      padding: 0.5rem 1rem;
+      
+      width: 100%;
+      top: 0;
+      z-index: 99;
+      
+      font-size: 2rem;
+      border-bottom: 8px solid rgb(50, 134, 48); 
+      border-top: 8px solid rgb(50, 134, 48); 
+      
+    }
+ 
+ 
+ 
+ 
+ 
+  }
+
+
+
+
+
 
   @font-face {
     font-family: '04b 30';
