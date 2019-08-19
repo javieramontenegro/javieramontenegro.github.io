@@ -93,6 +93,23 @@ body{
     color: white;
     font-family: 'SF Pixelate';
   }
+  .prog h3,.edu h3,.soft h3{
+    color: #ffc42a;
+    font-family: 'SF Pixelate';
+    text-align: center;
+  }
+  .prog li,.soft li{
+    font-family: 'SF Pixelate';
+    text-align: center;
+    list-style-type:none;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+  }
+  .prog ul,.soft ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 4rem;
+  }
   h2{
     color: #ffc42a;
     font-family: 'SF Pixelate';
@@ -130,7 +147,7 @@ body{
     font-family: 'SF Pixelate';
     text-align: center;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 770px) {
     .btn-portfolio,.btn-resume, .btn-contact{
       background-color: #e4226b;
       border-width: 0ch;
