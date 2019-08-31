@@ -12,18 +12,26 @@ function imageChange(x) {
   x.addListener(imageChange) // Attach listener function on state changes
 
   //ABRE ENLACES
+ //trabajo cipher
   document.getElementById('work-one').addEventListener('click', function(){
     window.open('https://javieramontenegro.github.io/SCL009-Cipher/src/index.html');
 }, false);
-
+//trabajo data lovers
 document.getElementById('work-two').addEventListener('click', function(){
     window.open('https://javieramontenegro.github.io/SCL009-data-lovers/src/index.html');
 }, false);
-
+//trabajo social network
 document.getElementById('work-three').addEventListener('click', function(){
     window.open('https://javieramontenegro.github.io/SCL009-Social-Network/src/index.html');
 }, false);
-
+//a linkedlin
+document.getElementById('linkedlin').addEventListener('click', function(){
+    window.open('https://www.linkedin.com/in/javieramontenegro/');
+}, false);
+//a github
+document.getElementById('github').addEventListener('click', function(){
+    window.open('https://github.com/javieramontenegro');
+}, false);
 //IR A VUSTA
 document.getElementById('btn-portfolio').addEventListener('click', function(){
     let elmnt = document.getElementById("portfolio");
@@ -35,5 +43,9 @@ document.getElementById('btn-resume').addEventListener('click', function(){
     elmnt.scrollIntoView();
 
 });
+document.getElementById('btn-contact').addEventListener('click', function(){
+    let elmnt = document.getElementById("contact");
+    elmnt.scrollIntoView();
 
+});
 //onclick="location.href='https://javieramontenegro.github.io/SCL009-Cipher/src/index.html';"

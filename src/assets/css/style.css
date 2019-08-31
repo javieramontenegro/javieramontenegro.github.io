@@ -147,6 +147,62 @@ body{
     font-family: 'SF Pixelate';
     text-align: center;
   }
+  .contact-div{
+    padding-bottom: 4rem;
+    background-color:#ffc42a;
+    border: 8px solid #be9220;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+  }
+  .div-pink{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color:#e4226b;
+    border: 8px solid rgb(180, 31, 89);
+    border-radius: 2rem;
+    text-align: center;
+  }
+  .mail-text{
+    font-size: 4rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-family: 'SF Pixelate';
+    text-align: center;
+    color:white;
+  }
+  .contact-text{
+    font-size: 4rem;
+    font-family: 'SF Pixelate';
+    text-align: center;
+    color: #581451;
+  }
+  .fa-linkedin-in{
+    margin-left: 5rem;
+    padding-left: 0.8rem;
+   padding-right: 0.8rem;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+    font-size: 3rem;
+    color: #ffc42a;
+    border-radius: 5rem;
+    background-color: white;
+    cursor: pointer;
+  }
+  .fa-github{
+   
+    font-size: 4rem;
+     color: white;
+     border-radius: 5rem;
+     
+     cursor: pointer;
+   }
+   .icon-container{
+     margin-left: 1rem;
+     text-align: center;
+     align-content: center;
+     align-items: center;
+   }
   @media (max-width: 770px) {
     .btn-portfolio,.btn-resume, .btn-contact{
       background-color: #e4226b;
@@ -192,8 +248,20 @@ body{
       
     }
  
- 
- 
+    .contact-text{
+      font-size: 2rem;
+      font-family: 'SF Pixelate';
+      text-align: center;
+      color: #581451;
+    }
+    .mail-text{
+      font-size: 3rem;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      font-family: 'SF Pixelate';
+      text-align: center;
+      color:white;
+    }
  
  
   }
