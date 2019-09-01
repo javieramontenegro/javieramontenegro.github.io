@@ -32,7 +32,15 @@ document.getElementById('linkedlin').addEventListener('click', function(){
 document.getElementById('github').addEventListener('click', function(){
     window.open('https://github.com/javieramontenegro');
 }, false);
-//IR A VUSTA
+//a youtube
+document.getElementById('youtube').addEventListener('click', function(){
+    window.open('https://www.youtube.com/watch?v=fvZFOw44rwM');
+}, false);
+//a artstation
+document.getElementById('artstation').addEventListener('click', function(){
+    window.open('https://www.artstation.com/jumpygames');
+}, false);
+//IR A VISTA
 document.getElementById('btn-portfolio').addEventListener('click', function(){
     let elmnt = document.getElementById("portfolio");
     elmnt.scrollIntoView();
