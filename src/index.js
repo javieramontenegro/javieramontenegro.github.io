@@ -1,9 +1,9 @@
 // FUNCION PARA LOGO
 function imageChange(x) {
     if (x.matches) { // If media query matches
-        document.getElementById('my-name').src = "./assets/img/name_2.jpg";
+        document.getElementById('my-name').src = "./src/assets/img/name_2.jpg";
      } else {
-        document.getElementById('my-name').src = "./assets/img/name.jpg";
+        document.getElementById('my-name').src = "./src/assets/img/name.jpg";
    }
   }
   
