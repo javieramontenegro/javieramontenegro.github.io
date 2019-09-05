@@ -26,14 +26,17 @@ body{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     border-radius: 0.8rem;
-    border-bottom: 6px solid rgb(180, 31, 89); 
+    border-bottom: 8px solid rgb(180, 31, 89); 
     color:white;
     text-align: left;
     font-family: 'SF Pixelate'
   }
   .btn-portfolio:hover,.btn-resume:hover,.btn-contact:hover{
-    background-color: #ffc42a;
-    border-bottom: 6px solid #be9220; 
+   /*  background-color: #ffc42a;
+    border-bottom: 3px solid #be9220;  */
+    border-bottom: 3px solid rgb(180, 31, 89);
+    margin-top: 0.8rem; 
+    /* border-bottom: none; */
     cursor: pointer;
   }
   .col-xl-12,.col-lg-12{
