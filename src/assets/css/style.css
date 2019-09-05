@@ -258,6 +258,14 @@ body{
       font-size: 1rem;
     
     }
+    .btn-portfolio:hover,.btn-resume:hover,.btn-contact:hover{
+      /*  background-color: #ffc42a;
+       border-bottom: 3px solid #be9220;  */
+       border-bottom: 3px solid rgb(180, 31, 89);
+       margin-top: 1.2rem; 
+       /* border-bottom: none; */
+       cursor: pointer;
+     }
     .my-name{
       margin-top:5rem;
       width: 100%; 
